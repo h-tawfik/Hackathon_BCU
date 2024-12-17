@@ -1,5 +1,5 @@
 
-# **Fine-Tuning Large Language Models with Curriculum Learning**
+# **Fine-Tuning Large Language Models with Curriculum Learning - Hackathon AI Symposium - Team 02**
 
 This repository demonstrates fine-tuning a large language model (LLM) for question-answering tasks using **LoRA** (Low-Rank Adaptation), **4-bit quantization**, and **curriculum learning**. The workflow includes dataset preparation, fine-tuning, and inference, with results saved for further analysis.
 
