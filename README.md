@@ -22,7 +22,7 @@ This repository demonstrates fine-tuning a large language model (LLM) for questi
 
 ## **Overview**
 
-This project fine-tunes the **Mistral-7B** model for a multiple-choice question-answering task. Using:
+This project fine-tunes the **GPT-Neo-1.3B** model for a multiple-choice question-answering task. Using:
 - **4-bit quantization** for efficient memory usage.
 - **LoRA** for low-resource fine-tuning.
 - **Curriculum Learning**: Organizes data by difficulty, calculated using simple heuristics.
@@ -84,7 +84,7 @@ pip install -U git+https://github.com/huggingface/peft.git
      - Technical terms (e.g., "algorithm", "methodology").
 
 ### 3. **Fine-Tuning**
-   - Fine-tunes the **Mistral-7B** model using LoRA and curriculum learning.
+   - Fine-tunes the **GPT-Neo-1.3B** model using LoRA and curriculum learning.
    - Divides the dataset into stages based on calculated difficulty scores.
 
 ### 4. **Inference**
